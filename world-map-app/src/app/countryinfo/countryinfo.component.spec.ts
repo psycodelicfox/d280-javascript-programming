@@ -11,7 +11,7 @@ describe('CountryinfoComponent', () => {
       imports: [CountryinfoComponent]
     })
     .compileComponents();
-
+    
     fixture = TestBed.createComponent(CountryinfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
